@@ -6,6 +6,10 @@
 
 
 /*elements*/
-
+@import "02-elements/header.css";
+@import "02-elements/formation.css";
+@import "02-elements/work.css";
+@import "02-elements/proyects.css";
+@import "02-elements/footer.css";
 
 /*components*/

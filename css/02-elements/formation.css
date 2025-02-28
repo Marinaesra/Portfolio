@@ -20,23 +20,35 @@
     align-items: flex-start;
     align-self: stretch;
     text-align: center;
+    align-items: center;
     gap: 8rem;
 }
 
 .formation-inf{
     display: flex;
+    flex-direction: column;
     align-items: center;
     font-size: 30px;
     font-family: var(--front-text);
     color: var(--color-black);
+
+    & img {
+        width: 50px;
+        height: 50px;
+    }
 }
 
-/*.formation-list{
-    display: flex;
-    justify-content: center;
+.cv-button {
+    display: inline-flex;
     align-items: center;
-}*/
-
+    gap: 0.5rem;
+    color: var(--color-font);
+    margin-inline-start: 3.125rem;
+    padding: 0.9375rem;
+    margin-top: 25px;
+    border: 2px solid var(--color-tertiary);
+    border-radius: 15px;
+}
 
 .formation-img{
     margin: 0 auto;
@@ -45,3 +57,4 @@
     align-items: flex-start;
     align-self: stretch;
 }
+

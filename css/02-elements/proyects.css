@@ -11,6 +11,7 @@
     font-size: 30px;
     font-family: var(--front-text);
     color: var(--color-black);
+    gap: 50px;
    
 }
 
@@ -29,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 450px;
 }
 
 .info-web-grid{
@@ -39,8 +41,8 @@
 }
 
 .info-web-img {
-    width: 13.875rem;
-    height: 11rem;
+    width: 280px;
+    height: 182px;
     border-radius: 1rem;
     flex-shrink: 0;
 }

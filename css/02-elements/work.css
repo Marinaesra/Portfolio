@@ -30,7 +30,7 @@
     font-size: 30px;
     font-family: var(--front-text);
     color: var(--color-black);
-   
+    gap: 20px;
 }
 
 .work-list-inf{
@@ -45,7 +45,6 @@
     border-radius:20px;
     align-items: flex-start;
     align-self: stretch;
-    gap: 20px;
 }
 
 .cv-buton {

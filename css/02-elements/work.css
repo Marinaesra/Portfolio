@@ -10,7 +10,7 @@
     align-items: center;
     font-weight: 500;
     padding-bottom: 1.5rem;
-    font-size: 100px;
+    font-size: 6.25rem;
     font-family: var(--title-text);
     color: var(--color-tertiary);
     line-height: 110%;
@@ -26,33 +26,33 @@
 .work-inf{
     display: flex;
     text-align: center;
-    top: 12px;
-    font-size: 30px;
+    top: 0.75rem;
+    font-size: 1.875rem;
     font-family: var(--front-text);
     color: var(--color-black);
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .work-list-inf{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 .work-img{
     margin: 0 auto;
     margin-inline-start: auto;
-    border-radius:20px;
+    border-radius:1.25rem;
     align-items: flex-start;
     align-self: stretch;
 }
 
 .cv-buton {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 
     & img {
-        width: 50px;
-        height: 50px;
+        width: 3.125rem;
+        height: 3.125rem;
     }
 }

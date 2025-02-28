@@ -7,8 +7,8 @@
 .proyect-inf{
     display: flex;
     text-align: center;
-    top: 12px;
-    font-size: 30px;
+    top: 0.75rem;
+    font-size: 1.875rem;
     font-family: var(--front-text);
     color: var(--color-black);
     gap: 50px;
@@ -21,7 +21,7 @@
     align-items: center;
     font-weight: 500;
     padding-bottom: 1.5rem;
-    font-size: 100px;
+    font-size: 6.25rem;
     font-family: var(--title-text);
     color: var(--color-tertiary);
 }
@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 450px;
+    max-width: 28.125rem;
 }
 
 .info-web-grid{
@@ -41,8 +41,8 @@
 }
 
 .info-web-img {
-    width: 280px;
-    height: 182px;
+    width: 17.5rem;
+    height: 11.375rem;
     border-radius: 1rem;
     flex-shrink: 0;
 }

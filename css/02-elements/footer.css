@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-me {
+    display: flex;
+    justify-content: center;
+    font-family: var(--front-text);
+}
+
+ 

@@ -1,5 +1,6 @@
 /*settings*/
-
+@import "00-settings/variables.css";
+@import "00-settings/layout.css";
 
 /*generic*/
 @import "01-generic/reset.css";

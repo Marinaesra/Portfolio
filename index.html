@@ -5,12 +5,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="bg-green">
+        <header>
+            <div class="me container">
+                <div class="my-name">
+                    <h1 class="name">Marina</h1>
+                    <div class="my-surnames">
+                        <h2 class="surname">Escaño</h2>
+                        <h2 class="surname">Rando</h2>
+                    </div>
+                </div>
+                <div class="redes">
+                    <nav class="my-redes">
+                        <a href="https://github.com/Marinaesra" class="links-logo" target="_blank">
+                            <img src="./imagenes/github.jpg" alt="">
+                        </a>
+                        <a href="https://www.linkedin/in/marina-escaño-rando" class="links-logo" target="_blank">
+                            <img src="./imagenes/linkedIn.jpg" alt="">
+                        </a>
+                    </nav>
+                </div>
+                </div>
+        </header>
+
+    </div>
+    <main>
+        <section class="formation container">
+            <h2 class="formation-title">Mi Formación</h2>
+            <div class="formation-desc">
+                <div class="formation-inf">
+                    <ul class="formation-list">
+                        <li>Grado En biologia</li>
+                        <li>Nivel B1 en inglés</li>
+                        <li>Estudiandte CodeSpace: Full Stack Developer</li>
+                    </ul>
+                </div>
+                <div class="formation-img">
+                    <img class="formation-img" src="./imagenes/girasoles.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="work container">
+            <h2 class="work-title">Proyección laboral</h2>
+            <div class="work-desc">
+                <div class="work-inf">
+                    <div class="work-img">
+                        <img class="work-img" src="/imagenes/work.png" alt="">
+                    </div>
+                    <div class="work-list-inf">
+                        <ul class="work-list">
+                            <li>Reposición en Supermercado</li>
+                            <li>Caja Central e información y financiación en Leroy Merlin</li>
+                            <li>Dependienta en Pandora</li>
+                            <li>Informática logística en Primor</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="button">
+                    <a href="./docs/CV.pdf" target="_blank" class="cv-buton"><img src="./imagenes/pdf.jpeg" alt=""></a> 
+                </div>
+            </div>
+        </section>
+        <section class="proyects container">
+            <h2 class="proyect-title">Mis Proyectos</h2>
+          <div class="proyect-inf">
+              <div class="proyect-desc">
+                 <p>Página web de un restaurante, asociado a otra pagina con otro articulo</p>
+             </div>
+              <div class="-info-web-grid">
+                  <img class="info-web-img" src="/imagenes/proyect1.png"
+                      alt="foto de una la primera seccion de un bar que hemos creado">
+                  <img class="info-web-img" src="/imagenes/proyect2.png"
+                      alt="foto de una la segunda seccion de un bar que hemos creado">
+                  <img class="info-web-img" src="/imagenes/proyect3.png"
+                      alt="foto de una la tercera seccion de un bar que hemos creado">
+                  <img class="info-web-img" src="/imagenes/proyect4.png"
+                      alt="foto de una la cuarta seccion de un bar que hemos creado">
+              </div>
+          </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="">
             <nav class="contact-me">
                 <div class="me-info">
                     <img class="tel-img" src="/imagenes/phone.svg" alt="">
@@ -18,73 +104,8 @@
                     <img class="mail" src="/imagenes/mail.svg" alt="">
                     <a href="mailto:mail@mail.com">marina_esra@hotmail.com</a>
                 </div>
-                <nav class="my-redes">
-                    <ul class="redes">
-                        <li>
-                            <a href="#">Linkedin</a>
-                        </li>
-                        <li>
-                            <a href="#">GitHub</a>
-                        </li>
-                    </ul>
-                </nav>
-                <a href="about-me.html" class="about-me-buton">
-
-                <button class="button">About me</button>
+            </nav>
         </div>
-        <h1> Marina Escaño Rando</h1>
-        <img src="/imagenes/me.jpeg" alt="">
-    </header>
-    <main>
-        <section class="formation">
-            <h2 class="formation-title">Mi Formación</h2>
-            <div class="formation">
-                <ul class="formation-list">
-                    <li>Grado En biologia</li>
-                    <li>Nivel B1 en inglés</li>
-                    <li>Estudiandte de CodeSpace: Desarrollo de paginas web y aplicaciones moviles</li>
-                </ul>
-            </div>
-            <div class="formation-img">
-                <img src="/imagenes/girasoles.png" alt="">
-            </div>
-        </section>
-        <section class="work">
-            <h2 class="work-title">Proyección laboral</h2>
-            <div class="work-title">
-                <img src="/imagenes/work.png" alt="">
-            </div>
-            <div class="work">
-                <ul class="work-list">
-                    <li>Reposición en Supermercado</li>
-                    <li>Caja Central e información y financiación en Leroy Merlin</li>
-                    <li>Dependienta en Pandora</li>
-                    <li>Informática logística en Primor</li>
-                </ul>
-            </div>
-            <div class="button">
-                <a href="CV.pdf" class="cv-buton"></a>
-                <button class="button-cv">CV</button>
-            </div>
-        </section>
-        <section class="proyects">
-            <h2 class="proyect-title">Mis Proyectos</h2>
-            <p>Paginas web para el proyecto de la academia</p>
-            <div class="-info-web-grid">
-                <img class="info-web-img" src="/imagenes/proyect1.png"
-                    alt="foto de una la primera seccion de un bar que hemos creado">
-                <img class="info-web-img" src="/imagenes/proyect2.png"
-                    alt="foto de una la segunda seccion de un bar que hemos creado">
-                <img class="info-web-img" src="/imagenes/proyect3.png"
-                    alt="foto de una la tercera seccion de un bar que hemos creado">
-                <img class="info-web-img" src="/imagenes/proyect4.png"
-                    alt="foto de una la cuarta seccion de un bar que hemos creado">
-            </div>
-        </section>
-    </main>
-
-    <footer>
-
     </footer>
 
 

@@ -1,0 +1,57 @@
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgb(255 255 255 / 0.3), rgb(255 255 255 / 0.3)), url(/imagenes/me2.JPG);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 800px;
+    padding: 600px;
+    position: relative;
+}
+
+.my-name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--color-black);
+    font-family: var(--title-text);
+    padding: 57px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.my-surnames {
+    display: flex;
+    padding: 2px;
+    flex-direction: column;
+    align-self: center;
+}
+
+.name{
+    font-size: 180px;  
+}
+
+.surname{
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.my-redes {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;   
+    gap: 10px;
+    padding: 10px;   
+}
+
+.links-logo {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;   
+}

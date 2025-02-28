@@ -1,0 +1,19 @@
+:root {
+    --color-primary: #51a7d8;
+    --color-seconday: #a6a6ad;
+    --color-tertiary: #4353e4;
+    --color-dark-blue: #3aebf477;
+    --color-white: #FFFFFF;
+    --color-font: #182226;
+    --color-black: #000000;
+    
+
+    --front-text: "DM Sans", sans-serif;
+    --title-text: "Tangerine";
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+

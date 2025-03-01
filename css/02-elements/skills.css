@@ -1,10 +1,10 @@
-.work{
+.skills{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
-.work-title{
+
+.skills-title {
     display: flex;
     text-align: center;
     align-items: center;
@@ -13,46 +13,36 @@
     font-size: 6.25rem;
     font-family: var(--title-text);
     color: var(--color-tertiary);
-    line-height: 110%;
 }
 
-.work-desc{
-    display: flex;
-    align-items: flex-start;
-    align-self: stretch;
-    gap: 8rem;
-}
-
-.work-inf{
-    display: flex;
-    text-align: center;
-    top: 0.75rem;
-    font-size: 1.875rem;
-    font-family: var(--front-text);
-    color: var(--color-black);
-    gap: 1.25rem;
-}
-
-.work-list-inf{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem;
-}
-.work-img{
-    margin: 0 auto;
+.skills-img{
     margin-inline-start: auto;
     border-radius:1.25rem;
     align-items: flex-start;
     align-self: stretch;
 }
 
-.cv-buton {
-    width: 3.125rem;
-    height: 3.125rem;
+.skills-desc {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    text-align: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.skills-inf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    font-family: var(--front-text);
+    color: var(--color-black);
+    gap: 0.75rem;
 
     & img {
         width: 3.125rem;
         height: 3.125rem;
     }
 }
+

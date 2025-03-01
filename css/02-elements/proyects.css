@@ -4,7 +4,7 @@
     flex-wrap: wrap;
 }
 
-.proyect-inf{
+.proyect-inf {
     display: flex;
     text-align: center;
     top: 0.75rem;
@@ -12,7 +12,6 @@
     font-family: var(--front-text);
     color: var(--color-black);
     gap: 50px;
-   
 }
 
 .proyect-title {
@@ -33,7 +32,7 @@
     max-width: 28.125rem;
 }
 
-.info-web-grid{
+.info-web-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;

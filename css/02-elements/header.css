@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image:linear-gradient(rgb(255 255 255 / 0.3), rgb(255 255 255 / 0.3)), url(/imagenes/me2.JPG);
+    background-image: linear-gradient(rgb(255 255 255 / 0.3), rgb(255 255 255 / 0.3)), url(/imagenes/me2.JPG);
     border-radius: 0.625rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +11,7 @@
     position: relative;
 }
 
-.my-name{
+.my-name {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -30,11 +30,11 @@
     align-self: center;
 }
 
-.name{
-    font-size: 11.25rem;  
+.name {
+    font-size: 11.25rem;
 }
 
-.surname{
+.surname {
     font-size: 5.625rem;
     display: flex;
     align-items: center;
@@ -45,13 +45,13 @@
     top: 0;
     right: 0;
     display: flex;
-    align-items: center;   
+    align-items: center;
     gap: 0.625rem;
-    padding: 0.625rem;   
+    padding: 0.625rem;
 }
 
 .links-logo {
     display: inline-flex;
     width: 3.125rem;
-    height: 3.125rem;   
+    height: 3.125rem;
 }

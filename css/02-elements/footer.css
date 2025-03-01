@@ -1,12 +1,12 @@
 .footer {
     display: flex;
-  justify-content: center; 
-  padding: 20px;
-  border-top: 1px solid #ccc;
+    justify-content: center;
+    padding: 1.25rem;
+    border-top: 0.0625rem solid #ccc;
 }
 
 .contacts-me {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     font-family: var(--front-text);
@@ -14,17 +14,16 @@
 
 .me-info {
     display: flex;
-  gap: 20px;
+    gap: 1.25rem;
 }
 
-.phone, .mail {
+.phone,
+.mail {
     display: flex;
     align-items: center;
-  }
+}
 
-  .phone a:hover, 
-  .mail a:hover {
-    color: #000; 
-  }
-
- 
+.phone a:hover,
+.mail a:hover {
+    color: #000;
+}
